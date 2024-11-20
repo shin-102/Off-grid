@@ -5,9 +5,76 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OFF-GRID -- Pulse x Jour'y Events</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&family=Orbitron:wght@400&display=swap" rel="stylesheet">
   </head>
+
   <body id="app">
-    <h1>OFF-GRID WEBSITE</h1>
+    <header class="container mx-auto flex justify-between mt-8 font-oxygen text-xl">
+      <ul class="flex gap-4">
+        <li>Schedule</li>
+        <li>About Us</li>
+        <li>Collaborations</li>
+        <li>Gallery</li>
+      </ul>
+      <button>Buy Tickets</button>
+    </header>
+    <article class="h-screen flex flex-col justify-center items-center">
+      <div class="flex items-center">
+        <img src="/Jour'y Eve Logo.png" alt="Jour'y Events" width="160">
+        <img src="/Pulse Rec Logo.png" alt="Pulse Record" width="200">
+      </div>
+      
+      <h1 class="font-orbitron">OFF-GRID</h1>
+      <button class="text-xl">Buy Tickets</button>
+    </article>
+
+    <article class="font-oxygen bg-gradient-to-b from-indigo-950/80 to-slate-950">
+      <section class="container mx-auto flex flex-col justify-center items-center">
+        <h2>Upcoming Events</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita minus iure suscipit nihil nemo nulla non officiis delectus minima alias neque quidem sit, doloremque repellat earum, facere sunt architecto error.</p>
+      </section>
+      <section class="container mx-auto flex flex-col justify-center items-center">
+        <div class="flex p-10">
+          <img src="/OFF-GRID party Poster.jpg" alt="OFF-GRID Event" class="w-80">
+          <div>
+            <h3>OFF-GRID party</h3>
+            <h4>21st DECEMBER</h4>
+            <h4>VILLA S - Kenitra</h4>
+            <div>
+              <p>Ticket 200 DH : Entry + 1 Drink</p>
+              <p>Ticket 270 DH : Entry + Transportation + 1 Meal</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </article>
+
+    <article class="py-10 bg-slate-950 sm:py-16 lg:py-24">
+      <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+    
+        <div class="grid grid-cols-1 gap-6 mt-8 sm:grid-cols-2 md:mt-16 lg:gap-x-12">
+          <div>
+            <img class="w-2/3" src="https://cdn.rareblocks.xyz/collection/celebration/images/team/6/team-member-1.jpg" alt="" />
+          </div>
+    
+          <div>
+            <img class="w-2/3" src="https://cdn.rareblocks.xyz/collection/celebration/images/team/6/team-member-2.jpg" alt="" />
+          </div>
+    
+          <div>
+            <img class="w-2/3" src="https://cdn.rareblocks.xyz/collection/celebration/images/team/6/team-member-3.jpg" alt="" />
+          </div>
+
+          <div>
+            <img class="w-2/3" src="https://cdn.rareblocks.xyz/collection/celebration/images/team/6/team-member-3.jpg" alt="" />
+          </div>
+        </div>
+    
+
+      </div>
+    </article>
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>
